@@ -1,0 +1,38 @@
+.profileInfo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 250px;
+  padding: 50px;
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  padding: 30px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.age {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}

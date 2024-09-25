@@ -1,0 +1,32 @@
+.nav {
+  grid-area: n;
+  background-color: rgb(141, 0, 146);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 30px;
+}
+
+.item {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 20px;
+  letter-spacing: 6px;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active {
+  color: black;
+}

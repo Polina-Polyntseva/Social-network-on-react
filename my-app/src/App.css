@@ -1,0 +1,76 @@
+.app-wrapper {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #e25050; 
+} 
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-ultralight.woff2) format(woff2),
+    url(font/gilroy-ultralight.woff) format(woff);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-light.woff2) format(woff2),
+    url(font/gilroy-light.woff) format(woff);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-regular.woff2) format(woff2),
+    url(font/gilroy-regular.woff) format(woff);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-medium.woff2) format(woff2),
+    url(font/gilroy-medium.woff) format(woff);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-semibold.woff2) format(woff2),
+    url(font/gilroy-semibold.woff) format(woff);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-bold.woff2) format(woff2),
+    url(font/gilroy-bold.woff) format(woff);
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;@font-face {
+  font-family: 'Gilroy';
+  src: url(font/gilroy-ultralight.woff2) format(woff2),
+    url(font/gilroy-ultralight.woff) format(woff);
+  font-style: normal;
+  font-weight: 200;
+}
+}
